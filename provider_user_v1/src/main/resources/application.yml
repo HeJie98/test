@@ -1,0 +1,13 @@
+server:
+  port: 6868
+spring:
+  application:
+    name: provider-user
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:6767/eureka
+logging:
+  level:
+    root: INFO
+

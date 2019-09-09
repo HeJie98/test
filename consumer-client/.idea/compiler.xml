@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Eureka_Server" />
+        <module name="provider-user_v1" />
+        <module name="provider_user_v2" />
+        <module name="provideruser" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="consume-client" target="1.8" />
+      <module name="consumer-feign" target="1.8" />
+      <module name="provider-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

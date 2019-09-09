@@ -1,0 +1,20 @@
+server:
+  port: 8896
+spring:
+  application:
+    name: comsumer-sidecar
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:6767/eureka
+
+logging:
+  level:
+    root: INFO
+
+#端口号为：所启动的的Note.js 所使用的端口
+sidecar:
+  port: 8060
+  health-uri: http://localhost:8060/health.json
+
+
